@@ -1,0 +1,4 @@
+Algorithm,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Score,Computational Scalability,Geometry,Best Use Case
+K-Means (k-means++),0.232,1.4246,948.6,High - O(k · n · d),Spherical Voronoi Partitions,Large-scale real-time segmentation & deployment
+Hierarchical (Ward Linkage),0.2252,1.787,817.5,Moderate - O(n² log n),Variance-minimizing clusters,"Taxonomy discovery, dendrogram relationship analysis"
+Hierarchical (Average Linkage),0.4313,0.7078,249.0,Moderate - O(n²),Arbitrary distance linkages,Detecting outlier groupings & irregular clusters
